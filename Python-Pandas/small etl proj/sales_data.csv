@@ -1,0 +1,11 @@
+order_id,customer,region,product,category,sales_amount,order_date
+1,Alice,North,Laptop,Electronics,1200,2023-01-10
+2,Bob,South,Phone,Electronics,800,2023-01-12
+3,Charlie,North,Tablet,Electronics,,2023-01-14
+4,David,East,Laptop,Electronics,1500,2023-01-15
+5,Eve,South,Phone,Electronics,abc,2023-01-17
+6,Frank,West,Monitor,Electronics,600,2023-01-18
+7,Grace,East,Keyboard,Accessories,200,2023-01-20
+8,Hannah,North,Mouse,Accessories,150,2023-01-22
+9,Ian,West,Laptop,Electronics,1300,2023-01-25
+10,Jane,South,Tablet,Electronics,900,2023-01-27

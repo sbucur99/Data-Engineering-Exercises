@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+  <property>
+    <name>fs.defaultFS</name>
+    <value>hdfs://namenode:8020</value>
+  </property>
+<property><name>fs.defaultFS</name><value>hdfs://c72a8a128668:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://d7fc3e474672:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://47d32a3e05d1:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://09db1dc73739:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://09db1dc73739:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://285d11cb5045:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://7d6d6a72ab61:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://b91aa745d458:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://e7cd8fadf7a6:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://49f5f5f0d503:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://f7968cee0a13:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://dee7959035a6:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://8762c62d359f:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://82c10bbd0308:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://28028683a0a8:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://7e090c234186:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://4742465560ad:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://8558aa5a05cf:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://8558aa5a05cf:8020</value></property>
+<property><name>fs.defaultFS</name><value>hdfs://namenode:8020</value></property>
+</configuration>

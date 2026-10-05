@@ -1,0 +1,8 @@
+2026-09-25 13:39:35,929 - INFO - Pipeline started
+2026-09-25 13:39:35,929 - ERROR - Invalid row encountered
+2026-09-25 13:41:16,063 - INFO - Pipeline started
+2026-09-25 13:41:16,063 - ERROR - Invalid row encountered
+2026-09-25 13:51:11,920 - ERROR - Invalid salary: could not convert string to float: 's'
+2026-09-25 13:51:31,121 - ERROR - Invalid salary: Salary cannot be negative
+2026-09-25 16:54:40,257 - ERROR - Invalid row: {'name': 'Alice', 'age': '', 'salary': '7000'} | Error: invalid literal for int() with base 10: ''
+2026-09-25 16:54:40,257 - ERROR - Invalid row: {'name': 'Bob', 'age': 'abc', 'salary': '4000'} | Error: invalid literal for int() with base 10: 'abc'

@@ -1,0 +1,11 @@
+order_id,customer_id,product_id,city,price
+1,101,P1,New York,200
+2,102,P2,Chicago,300
+3,101,P3,New York,150
+4,103,P2,Dallas,400
+5,104,P4,Chicago,250
+6,105,P1,New York,350
+7,101,P2,Dallas,500
+8,102,P3,Chicago,100
+9,103,P4,New York,600
+10,105,P1,Chicago,450

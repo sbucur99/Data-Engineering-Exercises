@@ -1,0 +1,10 @@
+employee_id,name,age,department,region,salary,joining_date,tax,net_salary,high_earner
+101,Alice,25.0,Engineering,North,7000.0,2022-01-15,1050.0,5950.0,True
+102,Bob,30.0,Sales,South,5000.0,2021-03-10,750.0,4250.0,False
+103,Charlie,22.0,Engineering,North,0.0,2023-06-01,0.0,0.0,False
+104,David,28.0,HR,East,4500.0,2020-11-20,675.0,3825.0,False
+105,Eve,35.0,Sales,South,8000.0,2019-07-18,1200.0,6800.0,True
+106,Frank,,Engineering,West,6000.0,2022-08-05,900.0,5100.0,False
+107,Grace,29.0,HR,East,0.0,2021-09-12,0.0,0.0,False
+108,Hannah,41.0,Management,North,12000.0,2018-04-25,1800.0,10200.0,True
+109,Ian,23.0,Engineering,West,4800.0,2023-02-14,720.0,4080.0,False

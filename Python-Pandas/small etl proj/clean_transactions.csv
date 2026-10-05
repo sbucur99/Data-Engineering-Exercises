@@ -1,0 +1,9 @@
+transaction_id,customer_id,region,amount,status
+1001,C001,North,500.0,Completed
+1002,C002,South,700.0,Completed
+1003,C003,East,450.0,Failed
+1004,C001,North,500.0,Completed
+1005,C004,West,900.0,Completed
+1008,C006,North,1200.0,Completed
+1009,C003,East,450.0,Failed
+1010,C007,West,650.0,Completed

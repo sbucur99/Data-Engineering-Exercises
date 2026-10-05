@@ -1,0 +1,11 @@
+employee_id,name,age,department,region,salary,joining_date
+101,Alice,25,Engineering,North,7000,2022-01-15
+102,Bob,30,Sales,South,5000,2021-03-10
+103,Charlie,22,Engineering,North,,2023-06-01
+104,David,28,HR,East,4500,2020-11-20
+105,Eve,35,Sales,South,8000,2019-07-18
+106,Frank,,Engineering,West,6000,2022-08-05
+107,Grace,29,HR,East,abc,2021-09-12
+108,Hannah,41,Management,North,12000,2018-04-25
+109,Ian,23,Engineering,West,4800,2023-02-14
+110,Jane,27,Sales,South,5300,
