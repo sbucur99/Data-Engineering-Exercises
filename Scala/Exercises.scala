@@ -32,6 +32,8 @@ object ScalaFundamentalsExercise {
       "HR"
     )
 
+    // val list = nums.toList
+
     println(s"Departments with duplicates removed: $departments")
 
     // Map: employee ID -> department
