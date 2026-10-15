@@ -163,7 +163,8 @@ SELECT table_name, active_bytes, retained_for_clone_bytes
 FROM retail_db.INFORMATION_SCHEMA.TABLE_STORAGE_METRICS
 WHERE table_schema = 'Q3_SALES' AND table_name IN ('SALES_FACT','SALES_CLONE');
 
-The clone should show about 0 active_bytes because it owns no partitions yet. Run UPDATE sales_clone SET amount = amount + 1; and re-run the query to watch it start owning storage.
+-- The clone should show about 0 active_bytes because it owns no partitions yet. 
+-- Run UPDATE sales_clone SET amount = amount + 1; and re-run the query to watch it start owning storage.
 
 -- 5. masking policy, tested with two roles
 CREATE TABLE employees_pii (id INT, name STRING, email STRING, region STRING);
