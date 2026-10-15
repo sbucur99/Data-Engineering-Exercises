@@ -2337,3 +2337,114 @@ WARNING: Unmatched cancel notification for request id 739
 2026.10.14 16:26:21 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
 2026.10.14 16:26:24 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
 2026.10.14 16:26:27 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Oct 14, 2026 4:51:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 14, 2026 8:49:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.10.15 08:18:08 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:08 WARN  no build target for: C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala
+2026.10.15 08:18:08 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:08 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Oct 15, 2026 8:18:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1064
+2026.10.15 08:18:08 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:08 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:08 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:09 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:09 WARN  no build target for: C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala
+2026.10.15 08:18:09 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Oct 15, 2026 8:18:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1073
+2026.10.15 08:18:09 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:09 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:09 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:10 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:09 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:10 WARN  no build target for: C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala
+2026.10.15 08:18:10 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:10 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:10 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:10 WARN  no build target for: C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala
+2026.10.15 08:18:10 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:10 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:10 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:11 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Oct 15, 2026 8:18:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1091
+Oct 15, 2026 8:18:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1089
+2026.10.15 08:18:11 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:10 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:10 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:11 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:11 WARN  no build target for: C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala
+Oct 15, 2026 8:18:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1096
+2026.10.15 08:18:11 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:11 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:11 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:11 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:11 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:11 WARN  no build target for: C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala
+2026.10.15 08:18:11 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:11 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Oct 15, 2026 8:18:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1103
+2026.10.15 08:18:12 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:12 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:14 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:14 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:14 WARN  no build target for: C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala
+2026.10.15 08:18:14 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:14 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:14 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:15 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:14 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:15 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\tryingtorun.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:15 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:15 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:15 WARN  no build target for: C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala
+2026.10.15 08:18:16 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:15 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Oct 15, 2026 8:18:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1123
+2026.10.15 08:18:16 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:15 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\VariablesLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:16 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:16 WARN  no build target for: C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala
+2026.10.15 08:18:15 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:16 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Oct 15, 2026 8:18:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1132
+2026.10.15 08:18:15 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:16 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:17 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:18 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\test.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:18 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:18 WARN  no build target for: C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\InClassLab.scala
+2026.10.15 08:18:18 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:18 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:18 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:18 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:18 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:27 INFO  no build target found for c:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:27 WARN  no build target for: C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ\InClassLab.scala
+2026.10.15 08:18:27 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:27 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Oct 15, 2026 8:18:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1154
+2026.10.15 08:18:27 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:27 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:27 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:28 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:38 INFO  no build target found for c:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:38 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:38 WARN  no build target for: C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ-Exercises\InClassLab.scala
+2026.10.15 08:18:38 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:38 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:38 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:38 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:38 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:18:46 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:20:31 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:20:33 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
