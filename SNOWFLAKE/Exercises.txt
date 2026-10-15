@@ -1,0 +1,108 @@
+Conceptual Questions
+See Exercises.sql file for Beginner, Intermediate, and Advanced hands-on.
+
+Beginner
+Concepts
+	1. Three layers. 
+    - Storage holds data as compressed, columnar micro-partitions in cloud object storage. 
+    - Compute is the virtual warehouses that run queries and loads. 
+    - Cloud Services is the brain: authentication, metadata, query optimization, transaction management, 
+    and access control.
+	2. Table types.
+		                        Permanent	                Transient	               Temporary
+	Lifetime	                Until dropped	            Until dropped	           Current session only
+	Time Travel	                Up to 90 days (Enterprise)	0-1 day	                   0-1 day
+	Fail-safe	                7 days	                    None	                   None
+	Visible to other sessions	Yes	                        Yes	                       No
+	Use for	                    Source of truth	            Staging, reproducible      Scratch work
+                                                            ETL output 
+
+    Note: Transient and temporary tables cost less because they skip Fail-safe storage.
+
+	2. Virtual warehouse. 
+    - It’s the compute that executes queries, DML, and data loads. 
+    - It holds no data, so you can size, suspend, and resume it independently, 
+    and separate workloads (ETL vs. BI) can each get their own.
+	
+	3. JSON. Load it into a VARIANT column. 
+    - Snowflake automatically splits it into columnar sub-fields behind the scenes, 
+    so path queries like v:customer.name::STRING prune partitions and run fast. 
+    - Arrays are expanded with FLATTEN.
+	
+	4. Snowpipe vs. COPY INTO. COPY INTO is a command you run (manually or scheduled) on your own warehouse, so it suits batch loads. Snowpipe is continuous: it’s triggered when files land, runs on serverless compute, and loads within about a minute. It’s billed per compute used plus a small per-file overhead, so many tiny files get expensive.
+	
+
+
+Intermediate
+Concepts
+	1. Time Travel vs. Zero-Copy Cloning. 
+    - Time Travel lets you read or restore past states of an object within its retention window. 
+    - Cloning makes a new, independent, writable object that initially shares the original’s 
+    micro-partitions, so it costs no extra storage until the two diverge. 
+    - You can combine them: CLONE ... AT (TIMESTAMP => ...).
+	
+	2. Internal vs. external stages. 
+    - Internal stages are storage managed by Snowflake (@~ user, @%table, or a named stage), 
+    and you upload with PUT. 
+    - External stages point to a bucket you own (S3, Azure, GCS) via a storage integration, 
+    and the files stay there.
+	
+	3. RBAC. 
+    Privileges are granted to roles, and roles are granted to users or other roles, 
+    with privileges inherited up the hierarchy. It matters because you can enforce least privilege, 
+    separate duties, and audit access without sharing credentials.
+	
+	4. Streams for CDC. 
+    A stream tracks row-level changes on a table using an offset, with metadata columns 
+    METADATA$ACTION, METADATA$ISUPDATE, and METADATA$ROW_ID. 
+    An update appears as a DELETE plus an INSERT pair. The offset advances only when the stream 
+    is consumed in a committed DML statement, which gives you exactly-once processing. 
+    Streams plus Tasks are Snowflake’s built-in version of the CDC you’ve been learning.
+	
+	5. Separation of compute and storage. Data lives as immutable micro-partitions in object storage, 
+    and warehouses are stateless clusters that read it (with a local cache). Any number of 
+    warehouses can read the same data at once, and each side scales and bills independently.
+
+
+Advanced
+Concepts
+	1. Snowpipe Streaming vs. classic Snowpipe. 
+    - Classic Snowpipe loads files after they land in a stage, with about a minute of latency. 
+    - Streaming writes rows directly through an SDK or the Kafka connector with no files, 
+    giving seconds of latency. Use it for Kafka or event streams, IoT, and any high-frequency source 
+    where batching into files adds delay or lots of tiny files.
+	
+	2. Secure views and row access policies for sharing. 
+    - Share only a secure view, never the base table. 
+    - Secure views hide the view definition and block optimizer tricks that could leak filtered rows. 
+    Add a row access policy (or a mapping table keyed on CURRENT_ACCOUNT() for shares) so each consumer 
+    sees only their rows, and attach masking policies to sensitive columns.
+	
+	3. Role hierarchy practices. 
+    - Create access roles that hold object privileges (read/write on a schema) and functional roles 
+    (analyst, engineer) that are granted those access roles. 
+    - Roll everything up to SYSADMIN, create users and roles with USERADMIN/SECURITYADMIN, 
+    and don’t use ACCOUNTADMIN for daily work. Use future grants and managed-access schemas, 
+    and grant to roles, never directly to users.
+	
+	4. LATERAL FLATTEN. It expands a nested array into one row per element:
+
+    SELECT c.v:customer.name::STRING AS customer,
+        o.value:id::INT           AS order_id,
+        o.value:total::NUMBER     AS total
+    FROM customers_raw c,
+        LATERAL FLATTEN(input => c.v:orders) o;
+
+    The output has VALUE, INDEX, KEY, PATH, and THIS columns. Add OUTER => TRUE to keep customers whose 
+    array is empty.
+
+	5. Billing. 
+		- Compute: warehouse credits per second (60-second minimum each time it resumes), doubling with 
+        each size (XS=1, S=2, M=4 credits/hr). Serverless features (Snowpipe, serverless tasks, 
+        auto-clustering) bill credits separately, and cloud services is free up to 10% of daily compute.
+		- Storage: a flat rate per TB per month on compressed data, including Time Travel and Fail-safe. 
+        Clones add cost only as they diverge.
+		- Data transfer: egress to other regions or clouds.
+		
+
+See Exercises.sql for advanced hands on.

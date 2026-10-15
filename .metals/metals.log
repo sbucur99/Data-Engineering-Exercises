@@ -2448,3 +2448,22 @@ WARNING: Unmatched cancel notification for request id 1154
 2026.10.15 08:18:46 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
 2026.10.15 08:20:31 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
 2026.10.15 08:20:33 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:21:08 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 08:25:18 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\IntelilJ-Exercises\InClassLab.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 09:28:44 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 09:28:45 WARN  no build target for: C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala
+2026.10.15 09:28:44 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 09:28:44 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 09:28:45 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Oct 15, 2026 9:28:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1199
+2026.10.15 09:28:44 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 09:28:48 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 09:28:48 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 09:40:55 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 09:40:55 WARN  no build target for: C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala
+2026.10.15 09:40:55 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 09:40:55 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 09:40:55 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 09:40:55 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.15 10:02:16 INFO  no build target found for C:\Users\Silas Bucar\DE Exercises\Data-Engineering-Exercises\Scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.8
