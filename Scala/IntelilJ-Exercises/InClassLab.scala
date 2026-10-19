@@ -28,6 +28,14 @@ object InClassLab extends App {
     .schema(schema)
     .csv("employee_transactions.csv")
 
+    // Save DataFrame as CSV with header and custom delimiter
+    // df.write
+    // .format("csv")
+    // .option("header", "true")
+    // .option("delimiter", "|")
+    // .mode("overwrite")
+    // .save("/path/to/output")
+
   case class Employee (emp_id: Int, name: String, department: String, city: String, salary: String, bonus: Int, experience: Int, join_year: Int)
 
   val dataSet = df.as[Employee]
