@@ -4257,3 +4257,97 @@ Oct 16, 2026 10:48:30 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint noti
 INFO: Unsupported notification method: $/setTrace
 2026.10.16 10:48:32 INFO  compiling data-engineering-exercises_d5c0a6989e (7 scala sources)
 2026.10.16 10:48:34 INFO  time: compiled Data-Engineering-Exercises_d5c0a6989e in 1.51s
+Oct 18, 2026 8:47:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.10.20 13:45:57 WARN  Not starting Scala CLI for out-of-workspace file (it can be started manually): C:\Users\Silas Bucur\Downloads\build.sbt
+2026.10.20 13:45:57 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.10.20 13:45:57 INFO  no build target found for C:\Users\Silas Bucur\Downloads\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.20 13:45:59 WARN  no build target for: C:\Users\Silas Bucur\Downloads\build.sbt
+Oct 20, 2026 1:45:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 826
+2026.10.20 13:45:59 INFO  no build target found for C:\Users\Silas Bucur\Downloads\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.20 13:45:59 INFO  no build target found for C:\Users\Silas Bucur\Downloads\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.20 13:45:59 INFO  no build target found for C:\Users\Silas Bucur\Downloads\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+Oct 20, 2026 1:45:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.util.NoSuchElementException: BatchedFunction
+java.util.concurrent.CompletionException: java.util.NoSuchElementException: BatchedFunction
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.util.NoSuchElementException: BatchedFunction
+	at scala.meta.internal.metals.BatchedFunction.<init>(BatchedFunction.scala:96)
+	at scala.meta.internal.metals.MetalsLspService.<init>(MetalsLspService.scala:239)
+	at scala.meta.internal.metals.FallbackMetalsLspService.<init>(FallbackMetalsLspService.scala:64)
+	at scala.meta.internal.metals.WorkspaceLspService.fallbackService$lzycompute(WorkspaceLspService.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.fallbackService(WorkspaceLspService.scala:223)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$didOpen$4(WorkspaceLspService.scala:477)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.WorkspaceLspService.didOpen(WorkspaceLspService.scala:477)
+	at scala.meta.metals.lsp.DelegatingScalaService.didOpen(DelegatingScalaService.scala:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+2026.10.20 13:45:59 INFO  no build target found for C:\Users\Silas Bucur\Downloads\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+Oct 20, 2026 1:45:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.util.NoSuchElementException: BatchedFunction
+java.util.concurrent.CompletionException: java.util.NoSuchElementException: BatchedFunction
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.util.NoSuchElementException: BatchedFunction
+	at scala.meta.internal.metals.BatchedFunction.<init>(BatchedFunction.scala:96)
+	at scala.meta.internal.metals.MetalsLspService.<init>(MetalsLspService.scala:239)
+	at scala.meta.internal.metals.FallbackMetalsLspService.<init>(FallbackMetalsLspService.scala:64)
+	at scala.meta.internal.metals.WorkspaceLspService.fallbackService$lzycompute(WorkspaceLspService.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.fallbackService(WorkspaceLspService.scala:223)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$didOpen$4(WorkspaceLspService.scala:477)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.WorkspaceLspService.didOpen(WorkspaceLspService.scala:477)
+	at scala.meta.metals.lsp.DelegatingScalaService.didOpen(DelegatingScalaService.scala:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+2026.10.20 13:45:59 INFO  no build target found for C:\Users\Silas Bucur\Downloads\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.20 13:46:00 INFO  no build target found for C:\Users\Silas Bucur\Downloads\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.20 13:46:00 INFO  time: code lens generation in 1.72s
+2026.10.20 13:46:02 INFO  no build target found for C:\Users\Silas Bucur\Downloads\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8

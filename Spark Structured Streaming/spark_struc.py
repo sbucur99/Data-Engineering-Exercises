@@ -43,6 +43,14 @@ query = (
 # 5. Keep the streaming query running
 query.awaitTermination()
 
+###### How to control the speed
+.trigger(processingTime="10 seconds")   # fixed interval micro-batches (lower cost, higher latency)
+.trigger(availableNow=True)             # process everything new, then stop (incremental batch)
+.trigger(continuous="1 second")         # experimental continuous mode, lower latency, limited features
+
+# inc load for batch processing
+# cdc only for inc load not full loads
+
 """
 readStream: Creates a streaming DataFrame instead of a static DataFrame.
 
