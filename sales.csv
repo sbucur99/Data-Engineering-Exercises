@@ -1,5 +1,0 @@
-order_id,region,product,quantity,unit_price
-ORD-001,North,Widget-A,10,150.00
-ORD-002,South,Widget-B,5,300.00
-ORD-003,North,Widget-A,8,150.00
-ORD-004,East,Widget-C,12,200.00

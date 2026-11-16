@@ -1,0 +1,17 @@
+{
+  "rules": [{
+    "name": "version-management", "enabled": true, "type": "Lifecycle",
+    "definition": {
+      "filters": { "blobTypes": ["blockBlob"] },
+      "actions": {
+        "version": {
+          "tierToCool": { "daysAfterCreationGreaterThan": 30 },
+          "delete": { "daysAfterCreationGreaterThan": 90 }
+        },
+        "snapshot": {
+          "delete": { "daysAfterCreationGreaterThan": 90 }
+        }
+      }
+    }
+  }]
+}
